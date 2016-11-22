@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+/* nav*/
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+.social-icon {
+	flex-direction: row;
+}
+/*main nav*/
+.nav-up {
+	display: flex;
+	justify-content: space-between;
+	}
+.nav-up a {
+	width: auto;
+	}
+/* do it*/
+.squre{
+	display: flex;
+	height: 200px;
+}
+.squre a{
+	text-align: center;
+	width: 200px;
+}
+/*become author*/
+#become-author {
+	display: flex;
+	justify-content: center;
+}
+/* cntent*/
+.post-main-right{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.post-main-left{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+/*footer*/
+.end {
+	display:flex;
+	justify-content: flex-start;
+}

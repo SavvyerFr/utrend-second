@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>About us</title>
+        <!-- Latest compiled and minified CSS -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    	<!-- Optional theme -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="icon" href="img/tools/favicon.ico" type="image/x-icon">
+    	<link rel="stylesheet" href="css/index.css" type="text/css" />    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Dorsa|Fjalla+One|Oranienbaum|Ropa+Sans|Six+Caps|Slabo+27px|Teko" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/index-lg.css" type="text/css" media="(min-width: 951px)">
+        <link rel="stylesheet" href="css/flexbox-lg.css" type="text/css" media="(min-width: 951px)">
+        <link rel="stylesheet" href="css/index-sm.css" type="text/css" media="(min-width: 651px) and (max-width: 950px)">
+        <link rel="stylesheet" href="css/flexbox-sm.css" type="text/css" media="(min-width: 651px) and (max-width: 950px)">
+        <link rel="stylesheet" href="css/index-old.css" type="text/css" media="(max-width: 650px)">
+        <link rel="stylesheet" href="css/flexbox-old.css" type="text/css" media="(max-width: 650px)">
+    </head>
+    <body>
+        <!--шапка сайту-->
+        <header>
+            <!--посилання на соцмережі-->
+            <div class="social-icon">
+                <a href="#null" onClick="openWin1()">
+                    <img src="img/tools/google+.png" alt="google+">
+                </a>
+                <a href="#null" onClick="openWin2()">
+                    <img src="img/tools/facebook.png"/>
+                </a>
+                <a href="#null" onClick="openWin3()">
+                    <img src="img/tools/twitter.png" alt="twitter">
+                </a>
+                <a href="#null" onClick="openWin4()">
+                    <img src="img/tools/pinterest.png" alt="pinterest">
+                </a>
+                <a href="https://vk.com/share.php?url=https://savvyerfr.github.io/Utrend/index.html">
+                    <img src="img/tools/vk.png" alt="vkontakte">
+                </a>
+            </div>
+            <form class="form-search" method="get" action="/search" target="_blank">
+                <input type="text" name="" placeholder="Give me..." value=""/>
+          </form>
+        </header>
+        <!--навігація-->
+        <div class="nav-main">
+            <div class="nav-up">
+                <a href="lifestyle.html" id="lifestyle">Lifestyle</a>
+                <img src="img/tools/line.jpg" class="line-nav">
+                <a href="travel.html" id="travel">Travel</a>
+                <img src="img/tools/line.jpg" class="line-nav" id="line-old-del-1">
+                <a href="he.html" id="he">He</a>
+                <a href="index.html" class="square-nav">
+                    <img src="img/tools/small-color-square.png" alt="small-color-square" class="square-nav">
+                </a>
+                <a href="she.html" id="she">She</a>
+                <img src="img/tools/line.jpg" class="line-nav" id="line-old-del-2">
+                <a href="philosophy.html" id="philosophy">Philosophy</a>
+                <img src="img/tools/line.jpg" class="line-nav">
+                <a href="about-us.html" id="about-us" class="active">About us</a>
+            </div>
+            <img src="img/tools/line-divade.png" alt="line" class="line-menu-down">
+        </div>
+        <!--бургер меню-->
+        <nav class="navbar navbar-inverse" role="navigation"> 
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Utrend</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="lifestyle.html">Lifestyle</a>
+                        </li>
+                        <li>
+                            <a href="travel.html">Travel</a>
+                        </li>
+                        <li>
+                            <a href="he.html">He</a>
+                        </li>
+                        <li>
+                            <a href="she.html">She</a>
+                        </li>
+                        <li>
+                            <a href="philosophy.html">Philosophy</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!--стаття-->
+<article>
+	<p class="information-about-us" lang="uk"><b>Ми стомилися від власних «завтра».</b><br><br>Новий початок у старому житті прийнято відкладати на день наступний, щоб переночувати з мудрим задумом і зранку не змінити нічого. Це природньо: боятися щось змінити. І не менш природньо ризикувати задля змін на краще.<br><br><b>Нам надоїло виправдовуватися.</b><br><br>Перш за все, виправдовуватися перед собою. Як і всі, ми бачили причини власних невдач в діях інших, знімаючи з себе будь-яку відповідальність. Але так нечесно. Чесно – це поглянути в дзеркало і зрозуміти, що ніхто, крім вас самих, не дасть вам кращого життя і не зробить вас щасливими.<br><br><b>Нас виснажують погані новини.</b><br><br>І їх в українському просторі чимало, й цей потік скоро не зупиниться. Не зупиниться тому, що джерело хороших новин та позитивних емоцій під тиском війни висихає. Під загальним тиском медіа ми схиляємося до позиції жертви цієї війни, яка ведеться не тільки на Сході, в зоні АТО, але і в наших думках, за наше майбутнє. Пора перестати чекати і починати діяти, створювати те, про що інші тільки говорять. І робити це не із завтрашнього дня, а просто зараз.<br><br><b>UTrend</b> – це Інтернет-видання, спрямоване на формування нової парадигми мислення серед українців. Ми пишемо для сильних і небайдужих, мрійників та людей дії, лідерів думки. Ми будемо вдосконалюватися разом.<br></p>
+    <p class="information-about-us-sign" lang="uk">З любов’ю,<br>працюючи заради кращого майбутнього<br>UTrend.</p>
+    <img src="img/about-us/couple-hug.jpg" alt="couple-hug" class="article-pic">
+</article>
+        <!--підвал-->
+        <footer>
+            <p lang="uk">Знайди нас</p>
+            <div class="end">
+                <div class="main-info">
+                    <p>
+                        Anna-Maria <a href="https://www.facebook.com/am.luchak" title="My FaceBook profile">Facebook</a>
+                        or <a href="https://vk.com/id132372385" title="My Instagram profile">Instagram</a>
+                        <br>
+                        Dmytro <a href="https://www.facebook.com/dmytro.fokshei" title="My FaceBook profile">Facebook</a>
+                        or <a ref="https://vk.com/savyer" title="My Instagram profile">Instagram</a>
+                    </p>
+                </div>
+                <div class="creation">
+                    <p>
+                        Utrend Creations<br>2016
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!--library-->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    	<!-- Latest compiled and minified JavaScript -->
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+		<script type="text/javascript" src="js/collapse-navbar.js"></script>
+		<script type="text/javascript" src="js/share.js"></script>
+        <script type="text/javascript" src="js/search.js"></script>
+    </body>
+</html>

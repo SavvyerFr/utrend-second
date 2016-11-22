@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+	header {
+		display: flex;
+		justify-content: space-between;
+}
+/* do it*/
+.squre{
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+}
+#film {
+	align-self:flex-start;
+	height: 200px;
+}
+#idea {
+	align-self:center;
+	height: 200px;
+}
+#book {
+	align-self:flex-end;
+	height: 200px;
+}
+/*BECOME AUTOR*/
+#become-author {
+	display: flex;
+	justify-content: center;
+	}
+.squre a{
+	text-align: center;
+	width: 200px;
+}
+/* content*/
+.post-main-right{
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+}
+.post-main-left{
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+}
+/*footer*/
+.end {
+	
+	display:flex;
+	justify-content: flex-start;
+}
