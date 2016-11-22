@@ -98,30 +98,80 @@
                 </div>
             </div>
         </nav>
-        <!--підвал-->
+        <!--form-->
+        <section>
+			<h2 class="title-of-author">Хочеш долучитися?</h2>
+			<p class="article-of-author">Якщо тобі є про що розказати -<br>заповни анкету і ми<br>невдовзі з тобою звяжемося</p>
+            <form method="POST" action="https://formspree.io/fokshei.d@gmail.com" class="form-to-author">
+                <fieldset>
+                    <legend lang="ua"></legend>
+                    <!--name-->
+                    <label for="name" class="form-mail-p">Імя:</label>
+                    <input type="text" name="name" id="name" placeholder="Ю-Тренд" value="" required class="form-mail">
+                    <br>
+                    <label for="surname" class="form-surname-p">Прізвище:</label>
+                    <!--surname-->
+                    <input type="text" name="surname" id="surname" placeholder="Ю-Трендович" value="" class="form-surname" required>
+                    <br>
+				</fieldset>
+                <fieldset>
+                   <legend lang="ua"></legend>
+                    <!--age-->
+                    <label for="date" class="form-birdth-p">Дата народження</label>
+                    <input type="date" name="date" class="form-birdth" id="date" required>
+                    <br>
+                    <!--освіта-->
+                    <label for="graduation" class="form-graduation-p">Освіта</label>
+                    <select name="graduation" class="form-graduaton" id="graduation">
+                       <option value="other">Інша</option>
+                        <option value="full">Повна середня освіта</option>
+                        <option value="hight">Вища, бакалавр</option>
+                        <option value="magister">Вища, магістр</option>
+                    </select>
+                    <br>
+                    <!--email-->
+                    <label for="email" class="form-mail-p">Email:</label>
+                    <input type="email" name="email" id="email" class="form-mail" placeholder="utrend@utrend.com" required>
+                    <br>
+				</fieldset>
+                <fieldset>
+                	<legend lang="ua"></legend>
+                	<label for="topic">Рубрики в яких хочете працювати</label>
+                	<br>
+                	<input type="checkbox" name="language" class="topic" value="Lifestyle">Lifestyle<br>
+                	<input type="checkbox" name="language" class="topic" value="Travel">Travel<br>
+                	<input type="checkbox" name="language" class="topic" value="He">He<br>
+                	<input type="checkbox" name="language" class="topic" value="She">She<br>
+                	<input type="checkbox" name="language" class="topic" value="Phylosophy">Phylosophy<br>
+                	<br>
+				</fieldset>
+               <div class="form-but">
+                <input type="reset" name="reset" value="Відмовитися">
+                <input type="submit" name="submit" value="Надіслати" id="submit">
+				</div>
+            </form>
+        </section>
+       <!--підвал-->
         <footer>
-            <p lang="uk">Знайди нас</p>
-            <div class="end">
-                <div class="main-info">
-                    <p>
-                        Anna-Maria <a href="https://www.facebook.com/am.luchak" title="My FaceBook profile">Facebook</a>
-                        or <a href="https://vk.com/id132372385" title="My Instagram profile">Instagram</a>
-                        <br>
-                        Dmytro <a href="https://www.facebook.com/dmytro.fokshei" title="My FaceBook profile">Facebook</a>
-                        or <a ref="https://vk.com/savyer" title="My Instagram profile">Instagram</a>
-                    </p>
-                </div>
-                <div class="creation">
-                    <p>
-                        Utrend Creations<br>2016
-                    </p>
-                </div>
-            </div>
+			<div class="footer-info">
+            	<div class="first-line">
+					<a href="about-us.html" lang="uk">Про нас</a>
+					<a href="about-us.html" lang="uk">Контакти</a>
+				</div>
+				<div class="second-line">
+					<a href="become-an-author.html" lang="uk">Стати частиною проекту</a>
+					<a href="opinion.html" lang="uk">Поскаржитися</a>
+				</div>
+				<div class="third-line">
+					<p>Utrend<br>2016</p>
+				</div>
+			</div>
         </footer>
         <!--library-->
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     	<!-- Latest compiled and minified JavaScript -->
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    	<script type="text/javascript" src="js/form.js"></script>
     	<script type="text/javascript" src="js/smooth-scroll.js"></script>
 		<script type="text/javascript" src="js/collapse-navbar.js"></script>
 		<script type="text/javascript" src="js/share.js"></script>

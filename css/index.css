@@ -170,25 +170,43 @@ aside {
 .post-main-right, .post-main-left {
 	margin: 1% 0%;
 }
-/* footer */
+/*footer*/
 footer {
 	margin: 0%;
 	background-color: #000;
 	text-decoration: none; 	
-	font-family: Ropa Sans; 
-	color:#c3bebe;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
 	}
-footer a {
-	font-family: Ropa Sans; 
-	color:#c3bebe;
-	}
-footer a:hover {
-	font-family: Ropa Sans; 
-	color:#fff;
-	}
-.creation {
-	color: red;
-	}
+.footer-info {
+	padding: 1% 0%;
+}
+.first-line a {
+	color: #c3bebe;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
+	font-size: 1em;
+}
+.second-line a {
+	color: #c3bebe;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
+	font-size: 1em;
+}
+.first-line a:hover {
+	text-decoration: none;
+	color: #fff;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
+	font-size: 1em;
+}
+.second-line a:hover {
+	text-decoration: none;
+	color: #fff;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
+	font-size: 1em;
+}
+.third-line {
+	color: #770204;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
+	font-size: 1em;
+}
 /*pages with article*/
 .article-pic {
 	width: 100%;
@@ -269,4 +287,26 @@ article h2 {
 	text-align: right;
 	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif; 
 	font-size: 1.8em;
+}
+/*author*/
+.title-of-author {
+	text-align: center;
+	font-size: 5em;
+}
+.article-of-author {
+	text-align: center;
+	font-size: 3em;
+}
+.form-to-author {
+	margin: 0% 20% 0% 20%;
+	font-size: 1.5em;
+}
+.form-but {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0% 20%;
+}
+*:focus {
+	outline: none;
 }

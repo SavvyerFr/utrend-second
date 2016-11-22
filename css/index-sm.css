@@ -173,3 +173,12 @@ article p {
 	font-size: 1.6em;
 	width: 15%;
 }
+/*author*/
+.title-of-author {
+	text-align: center;
+	font-size: 4em;
+}
+.article-of-author {
+	text-align: center;
+	font-size: 2em;
+}

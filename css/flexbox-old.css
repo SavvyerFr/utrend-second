@@ -25,7 +25,12 @@
 	flex-wrap: wrap;
 }
 /*footer*/
-.end {
-	display:flex;
-	justify-content: flex-start;
+.footer-info {
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+}
+.first-line, .second-line {
+	display: flex;
+	flex-direction: column;
 }
